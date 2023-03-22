@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: N00_000_00_FaceEyeline_00_FACE (Instance)
+  m_Shader: {fileID: 4800000, guid: e2c41f2ba6a3f334d894aeac1b04af52, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ENABLE_METAL_SPECULAR
+  - ENABLE_RAMP_SHADOW
+  - _CULL_NONE
+  - _ENABLELAMBERT_ON
+  - _ENABLERIMDS_ON
+  - _ENABLERIM_ON
+  - _ENABLESPECULAR_ON
+  - _FIXDARKSHADOW_ON
+  - _USEALPHACLIPPING_ON
+  - _USEEMISSION_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: db9759a3e42dc25409022afee682a50b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BloomMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: b4933d20cee50244b98b8da7b295cfae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceShadowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadeMap:
+        m_Texture: {fileID: 2800000, guid: db9759a3e42dc25409022afee682a50b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BloomFactor: 1
+    - _CelShadeMidPoint: 0.3
+    - _CelShadeSoftness: 0.1
+    - _Cull: 0
+    - _Cutoff: 0.1
+    - _DarkShadowArea: 0.5
+    - _DarkShadowSmooth: 0.05
+    - _DarkSideRimPow: 1
+    - _DarkSideRimSmooth: 0.01
+    - _DirectLightMultiplier: 1
+    - _Emission: 1
+    - _EmissionBloomFactor: 1
+    - _EnableAlphaClipping: 0
+    - _EnableAutoColor: 0
+    - _EnableBloomMask: 0
+    - _EnableEmission: 0
+    - _EnableFaceShadowMap: 0
+    - _EnableLambert: 1
+    - _EnableMetalSpecular: 1
+    - _EnableRampShadow: 1
+    - _EnableRim: 1
+    - _EnableRimDS: 1
+    - _EnableRimOther: 0
+    - _EnableSpecular: 1
+    - _FaceShadowMapPow: 0.2
+    - _FaceShadowOffset: 0
+    - _FixDarkShadow: 1
+    - _FixLightY: 0
+    - _IgnoreLightY: 0
+    - _IndirectLightMultiplier: 0.1
+    - _OtherRimPow: 10
+    - _OtherRimSmooth: 0.01
+    - _OutlineWidth: 0.0001
+    - _OutlineZOffset: 0.0001
+    - _RampShadowRange: 0.8
+    - _ReceiveShadowMappingAmount: 0.5
+    - _ReceiveShadowMappingPosOffset: 0
+    - _RimPow: 1
+    - _RimSmooth: 0.01
+    - _ShadowArea: 0.5
+    - _ShadowSmooth: 0.05
+    - _Shininess: 10
+    - _SpecMulti: 1
+    - _UseAlphaClipping: 1
+    - _UseEmission: 1
+    - _VColBlendMode: 0
+    - _WorldLightInfluence: 0.1
+    m_Colors:
+    - _BaseColor: {r: 0.35968372, g: 0.42716703, b: 0.48754692, a: 1}
+    - _DarkShadowMultColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _DarkSideRimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionMapChannelMask: {r: 1, g: 1, b: 1, a: 1}
+    - _IndirectLightConstColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _LightSpecColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _OtherRimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0.27450976, g: 0.09019602, b: 0.12549013, a: 1}
+    - _RampArea12: {r: -50, g: 1, b: -50, a: 4}
+    - _RampArea34: {r: -50, g: 0, b: -50, a: 2}
+    - _RampArea5: {r: -50, g: 3, b: -50, a: 0}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadeColor: {r: 0.14232874, g: 0.1966976, b: 0.25995573, a: 1}
+    - _ShadowMultColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
